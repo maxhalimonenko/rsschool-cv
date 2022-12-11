@@ -1,40 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/favicon.ico">
-    <title>Tic-tac-toe</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="overlay"></div>
-    <div class="wrapper">
-    	<div class="content">	
-			<h1>Tanchik</h1>
-			<div class="score"><span id="victories">0</span>&nbsp;&nbsp;:&nbsp;&nbsp;<span id="defeats">0</span></div>
-			<div id="area">
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-			</div>
-		</div>
+        <link rel="stylesheet"  href="styles.css">
+        <link rel="icon" href="assets/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cv</title>
+     </head>
+  <body>
+    <header class="header">
+      <div class="container">
+              <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
     </div>
-    <footer class="footer">
-        <div class="container footer__container">
-            <div class="footer-data">©<span class="footer-data__year">2022</span><a href="https://github.com/maxhalimonenko" title="My GitHub">github</a></div>
-            <div class="link-school">
-                <a href="https://rs.school/js/" target="_blank">
-                    <img src="./assets/rs_school_js.svg" alt="rs school js logo">
+        </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section" id="profile">
+                    <h1 class="section-title">Maksim Halimonenko</h1>
+                    <img src="assets/Photo.jpg" alt="my photo" class="logo">
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li>Location:Minsk,Belarus</li>
+            <li>Email:maxhalimonenko@gmail.com</li>
+            <li>Phone:+375297779699</li>
+            <li>Github:maxhalimonenko</li>
+          </ul>
+        </section>
+        <section class="section" id="about-me">
+          <h2 class="section-title">About me</h2>
+          <p>I am an excellent team worker and very willing to learn and gain new skills.I have good skills in team managament.I want to learn Frontend/Javascript because I stopped in development at my current work and I want something new.</p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>Javascript(basics)</li>
+            <li>HTML(basics)</li>
+            <li>CSS (basics)</li>
+            <li>MS office</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <p><code>function min(a, b) {<br>
+            if (a = b) {<br>
+              return a;<br>
+            } else {<br>
+              return b;<br>
+            }<br>
+          }</code></p>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul>
+            <li>CS50 video lectures</li>
+            <li>Javascript learn</li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul>
+            <li>Polotsk State univercity, engineer-geodisist</li>
+          </ul>
+          </section>
+          <section class="section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <ul>
+              <li>Geodezist in building company</li>
+              <li>Technical inventory specialist at the Сadastral Аgency</li>
+            </ul>
+            </section>
+            <section class="section lang" id="languages">
+              <h2 class="section-title">Languages</h2>
+              <ul>
+                <li>Russian(native)</li>
+                <li>Belarus (native)</li>
+                <li>English (A2, but I have sleeping B1 or B2 if I have more practice)</li>
+                <li>Polish(basics)</li>
+                <li>Ukrainian(basics)</li>
+              </ul>
+              </section>
+      </div>
+    </main>
+       <footer class="footer">
+      <div class="container">
+                  <div>В© 2022 <a href="https://github.com/maxhalimonenko" class="github nav-link">maxhalimonenko</a>
+                  </div>
                 </div>
     </footer>
-      <script src="index.js"></script>  
-</body>
+  </body>
 </html>
