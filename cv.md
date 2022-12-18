@@ -8,7 +8,8 @@
 ***
 # About me
 ***
-I am an excellent team worker and very willing to learn and gain new skills.I have good skills in team managament.I want to learn Frontend/Javascript because I stopped in development at my current work and I want something new.
+I am an excellent team worker and very willing to learn and gain new skills.I have good skills in team managament.I want to learn Fro
+ntend/Javascript because I stopped in development at my current work and I want something new.
 ***
 # Skills
 + Javascript(basics)
@@ -30,15 +31,12 @@ function min(a, b) {
 # Courses:
 + CS50 video lectures
 + Javascript learn
-+ Rolling-scopes-school(stage#0)
-
 ***
 # Education
 + Polotsk State univercity, engineer-geodisist
 ***
 # Experience
 + Geodezist in building company
-+ Geodezist in Design institute
 + Technical inventory specialist at the Сadastral Аgency
 ***
 # Languages
@@ -48,3 +46,7 @@ function min(a, b) {
 + Polish(basics)
 + Ukrainian(basics)
 + Spanish(basics)
+
+# Projects
++ Memslider (https://maxhalimonenko.github.io/cssMemSlider/cssMemSlider/)
++ VirtualKeyboard https://maxhalimonenko.github.io/Virtual_keyboard/)
